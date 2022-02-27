@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101219"
+    android:theme="@style/Theme.FruitRoulette.HighScores"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_trophy" />
+
+    <TableLayout
+        android:id="@+id/ScoreTable"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:stretchColumns="*"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="200dp"
+        >
+
+        <TableRow
+            android:id="@+id/ScoreTableLabel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/sT_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/sT_Score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/sT_Round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rounds"
+                android:textAlignment="center"/>
+        </TableRow>
+
+
+    </TableLayout>
+</RelativeLayout>

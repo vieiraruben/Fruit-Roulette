@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fruit Roulette</string>
+    <string name="title_activity_new_game">NewGame</string>
+</resources>

@@ -34,3 +34,9 @@ google-services.json
 .gradle/7.0.2/executionHistory/executionHistory.bin
 
 **/.DS_Store
+*.gradle
+gradlew.bat
+gradlew
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle.properties

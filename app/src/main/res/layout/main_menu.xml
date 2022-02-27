@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainMenu"
+    android:paddingTop="200dp"
+    android:background="#101219"
+    android:paddingBottom="200dp">
+
+    <TextView
+        android:id="@+id/newGameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="newGame"
+        android:paddingTop="20dp"
+        android:text="NEW GAME"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/highScoresButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:onClick="highScores"
+        android:paddingTop="20dp"
+        android:text="HIGH SCORES"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/quitButton"
+        app:layout_constraintTop_toBottomOf="@+id/newGameLabel"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/quitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:paddingTop="20dp"
+        android:text="QUIT"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
