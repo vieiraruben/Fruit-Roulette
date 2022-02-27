@@ -109,7 +109,7 @@ LinkedIn Profile - [https://www.linkedin.com/in/vieiraruben](https://www.linkedi
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/arcreane/masterfruit-les-rois-du-frui.svg?style=for-the-badge  
-[contributors-url]: https://github.com/arcreane/masterfruit-les-rois-du-frui/graphs/Fruit-Roulette
+[contributors-url]: https://github.com/arcreane/masterfruit-les-rois-du-frui/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/vieiraruben/Fruit-Roulette.svg?style=for-the-badge
 [forks-url]: https://github.com/vieiraruben/Fruit-Roulette/network/members
 [stars-shield]: https://img.shields.io/github/stars/vieiraruben/Fruit-Roulette.svg?style=for-the-badge
